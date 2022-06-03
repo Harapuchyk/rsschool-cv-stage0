@@ -29,8 +29,7 @@ Programming experience:
 
 I can say that there is no experience. But for example the simplest Python code:
 
-'''
-
+```
 print('Тест на проверку уровня вашей смелости. Приступим!')
 a = 0
 x = input('Вы умераете с голоду. Сможете ли вы пойти на воровство в такой ситуации? (Если "Да", нажмите 1. Если "Нет" - 2): ')
@@ -54,7 +53,6 @@ elif a <=2:
     print('Результат теста: Вы трус! Но зачастую они живут дольше, не огорчайтесь!')
 elif a == 3:
     print('Результат теста: Вы и не трус и не храбрец. Золотая серединка!')
-
-'''
+```
 ***********
 _I would like to learn a new specialty front-end developer. I will try to achieve this goal together with RSS_
