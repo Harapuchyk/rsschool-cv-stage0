@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/icon.ico">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>CV</h1>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#goal" class="nav-link">Goal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container">
+                <img src="./assets/img/photo.jpg" alt="my photo" width="200" height="300">                
+                <h2 class="title">ANDREI HARAPUCHYK</h2>
+                <p>Age: 30 years</p>
+                <p>Location: Belarus, Minsk</p>                
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="container">
+                <h2 class="title">Contact:</h2>
+                <ul>
+                    <li>Phone: +375 29 8035008</li>
+                    <li>E-mail: harapuchyk.andrei@gmail.com</li>
+                    <li>Discord: @Harapuchyk</li>
+                </ul>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2 class="title">Education:</h2>
+                <ol>
+                    <li> Brest State University. Faculty of Physical Education. Specialty: Lecturer. Physical Therapy
+                        Instructor. 2009-2013</li>
+                    <li> Brest State Technical University. Institute for advanced training and retraining. Specialty:
+                        Information systems software. 2011-2013</li>
+                </ol>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="container">
+                <h2 class="title">Work experience:</h2>
+                <ul>
+                    <li>7 years of experience working with children with various diseases</li>
+                    <li>No programming experience</li>
+                </ul>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="container">
+                <h2 class="title">Languages:</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="thead">Language:</th>
+                            <th class="thead">Level:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="table">English</th>
+                            <th class="table">A1</th>
+                        </tr>
+                        <tr>
+                            <th class="table">Russian</th>
+                            <th class="table">Native</th>
+                        </tr>
+                        <tr>
+                            <th class="table">Belarussian</th>
+                            <th class="table">Native</th>
+                        </tr>
+                        <tr>
+                            <th class="table">Ukrainian</th>
+                            <th class="table">A2</th>
+                        </tr>
+                        <tr>
+                            <th class="table">Polish</th>
+                            <th class="table">A2</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="code">
+            <div class="container">
+                <h2 class="title">Programming experience:</h2>
+                <p>I can say that there is no experience. But for example the simplest Python code, simple program
+                    that reads the number of syllables in a poem:</p>
+                <pre class="code">
+                    <code>                        
+                    print('Напишите стихотворение, в конце каждой строки вводите Enter. 
+                            А в конце всего стиха, напишите "Конец".
+                            Вы узнаете склолько слогов в ваших строках и
+                            насколько хорош ваш стих, в плане симметрии. ')
+                    while True:
+                        s = input()
+                        if s == 'Конец' or s =='конец':
+                            break
+                        k = 0
+                        for x in s:
+                            if x in 'аАеЕёиЁИоОуУыЫэЭюЮяЯ':
+                            k=k+1
+                        print(k) 
+                    </code>                       
+                </pre>
+            </div>
+        </section>
+        <section id="goal">
+            <div class="container">
+                <h2 class="title">Goal:</h2>
+                <p>I would like to learn a new specialty front-end developer. I will try to achieve this goal together
+                    with RSS</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a class="link-decoration padding-footer" href="https://github.com/Harapuchyk">my_GitHub</a>
+                <span class="padding-footer">&copy; 2022</span>
+                <a class="padding-footer" href="https://rs.school/js/"> <img src="./assets/img/rs_school_js.svg"
+                        width="60" height="40" alt="logo RSS"> </a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
